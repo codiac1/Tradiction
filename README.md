@@ -5,9 +5,11 @@ Introduction
 
 Predicting how the stock market will perform is one of the most difficult things to do. There are so many factors involved in the prediction – physical factors vs. psychological, rational and irrational behavior, etc. All these aspects combine to make share prices volatile and very difficult to predict with a high degree of accuracy.
 
+With the help of Machine Learning , we are going to predict the stock prices , machine learning techniques have the potential to unearth patterns and insights we didn’t see before, and these can be used to make unerringly accurate predictions. Now for this we will use Modules such as LSTM , pandas and Numpy.
+
 LTSMs are a type of Recurrent Neural Network for learning long-term dependencies. It is commonly used for processing and predicting time-series data. 
 
-<img width="469" alt="LSTM" src="https://user-images.githubusercontent.com/88943739/166753353-820f9311-dc25-4915-a388-61cb5566ea75.png">
+<img width="700" alt="LSTM" src="https://user-images.githubusercontent.com/88943739/166753353-820f9311-dc25-4915-a388-61cb5566ea75.png">
 
 you can see LSTMs have a chain-like structure. General RNNs have a single neural network layer. LSTMs, on the other hand, have four interacting layers communicating extraordinarily.
 
