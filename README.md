@@ -20,3 +20,8 @@ LSTMs work in a three-step process.
 2. There are two functions in the second layer. The first is the sigmoid function, and the second is the tanh function. The sigmoid function decides which values to let    through (0 or 1). The tanh function gives the weightage to the values passed, deciding their level of importance from -1 to 1.
 
 3. The third step is to decide what will be the final output. First, you need to run a sigmoid layer which determines what parts of the cell state make it to the output.    Then, you must put the cell state through the tanh function to push the values between -1 and 1 and multiply it by the output of the sigmoid gate.
+
+After implementing the above methodology the final graph will look like below where actual value and predicted value can be seen in the red and orange color respectively.
+
+![final chart](https://user-images.githubusercontent.com/88943739/166790342-4d7e67b0-f917-4994-ba00-2dac045bfaa7.png)
+
